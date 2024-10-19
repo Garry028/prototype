@@ -1,3 +1,61 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "Uber Move";
+  src: url("./assets/fonts/UberMove-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Uber Move";
+  src: url("UberMove-Bold.eot");
+  src: local("UberMoveBold"), local("UberMove-Bold"),
+    url("./assets/fonts/UberMove-Bold.eot?#iefix") format("embedded-opentype"),
+    url("./assets/fonts/UberMove-Bold.woff2") format("woff2"),
+    url("./assets/fonts/UberMove-Bold.woff") format("woff"),
+    url("./assets/fonts/UberMove-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Uber Move";
+  src: url("UberMove-Regular.eot");
+  src: local("UberMoveRegular"), local("UberMove-Regular"),
+    url("./assets/fonts/UberMove-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/UberMove-Regular.woff2") format("woff2"),
+    url("./assets/fonts/UberMove-Regular.woff") format("woff"),
+    url("./assets/fonts/UberMove-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Uber Move";
+  src: url("UberMove-Light.eot");
+  src: local("UberMoveLight"), local("UberMove-Light"),
+    url("./assets/fonts/UberMove-Light.eot?#iefix") format("embedded-opentype"),
+    url("./assets/fonts/UberMove-Light.woff2") format("woff2"),
+    url("./assets/fonts/UberMove-Light.woff") format("woff"),
+    url("./assets/fonts/UberMove-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Uber Move";
+  src: url("UberMove-Medium.eot");
+  src: local("UberMoveMedium"), local("UberMove-Medium"),
+    url("./assets/fonts/UberMove-Medium.eot?#iefix") format("embedded-opentype"),
+    url("./assets/fonts/UberMove-Medium.woff2") format("woff2"),
+    url("./assets/fonts/UberMove-Medium.woff") format("woff"),
+    url("./assets/fonts/UberMove-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
